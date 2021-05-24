@@ -10,10 +10,9 @@
 3. `npm start` to start the application
 4. `npm test` runs the test suite
 
-# CHANGES I MADE TO SERVER
+# Changes I Made To The Server
 
-The Express server code was written in a way that each page would only return 4 parts instead of 5 because jsArray.slice is not inclusive of the last index. I changed that line 
-(server.js line 23) so that 5 parts were returned per page, according to spec.
+The Express server code was written in a way that each page would only return 4 parts instead of 5 because jsArray.slice is not inclusive of the last index. I changed that line (server.js line 23) so that 5 parts were returned per page, according to spec.
 
 # Application Overview
 
