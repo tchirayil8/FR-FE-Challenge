@@ -1,0 +1,33 @@
+.app-container {
+    margin: auto;
+    width: 390px;
+    padding: 24px 16px;
+    border: solid 2px black;
+}
+
+.app-title {
+    font-weight: bold;
+}
+
+.part-container {
+    margin: 8px 0px;
+}
+
+.form-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.pagination-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.arrow {
+    cursor: pointer;
+    font-weight: bold;
+}
