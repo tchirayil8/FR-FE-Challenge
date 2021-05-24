@@ -18,7 +18,7 @@ The Express server code was written in a way that each page would only return 4 
 
 This application was built using Create-React-App. The main application is contained in the component called App. It is rendered to the dom in index.js and specified in App.jsx. I kept the application simple by keeping all the html/css in App.jsx and allowing all state and functions to be defined in App.jsx.
 
-
+The GET request to /parts is made upon initial render of the application. The request is made again whenever the arrows are clicked and a new page is requested. These requests are handled by useEffect hooks in App.jsx. The state of each part's quantity input is kept in the partsQuantity state object {}. This object is updated each time the quantity is changed in the corresponding input with a input-index:quantity key:value pair. This object is also updated each time the parts are fetched from the server. This allows easy extensibility of the parts list and relies on the server to be the source of truth.
 
 
 ## CREATE REACT APP README
